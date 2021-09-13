@@ -1,0 +1,41 @@
+
+.title{
+  font-family: Helvetica, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+
+.pictures{
+  background-color: rebeccapurple;
+  display: flex;
+  flex-direction: row;
+  border-radius: 60px;
+  border: solid rgb(107, 107, 107);
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;  
+}
+
+.pictures img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pictures img:hover{
+
+  box-shadow: 0 10px 50px rgb(0, 255, 255);
+}
+
+.new-div{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* text for reset */
+
+.for-reset{
+  text-align: center;
+}
